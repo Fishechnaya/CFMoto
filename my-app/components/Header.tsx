@@ -20,7 +20,7 @@ export default function Header() {
   }, [open]);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 bg-transparent">
+    <header className="absolute inset-x-0 top-0 z-50 bg-transparent">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 md:px-6">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/icons/лого.svg" alt="CFMOTO" width={56} height={56} priority />

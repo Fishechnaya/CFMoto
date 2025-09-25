@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import Header from "./Header";
 
 export default function Hero() {
   return (
     <section className="relative w-full" style={{minHeight: "min(90vh, 920px)"}}>
+      <Header />
       <Image
         src="/images/фон.png"
         alt="Фон"
