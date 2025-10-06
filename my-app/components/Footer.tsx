@@ -46,9 +46,6 @@ export default function Footer() {
                 <Link href="#" className="font-semibold text-slate-900 underline underline-offset-4 hover:text-teal-600">
                   Telegram
                 </Link>
-                <Link href="#" className="font-semibold text-slate-900 underline underline-offset-4 hover:text-teal-600">
-                  VK
-                </Link>
               </div>
             </div>
           </div>
@@ -85,6 +82,7 @@ export default function Footer() {
     </footer>
   );
 }
+
 
 
 
